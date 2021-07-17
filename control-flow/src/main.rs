@@ -40,4 +40,27 @@ fn main() {
 
     println!("The value of number is: {}", number5);
 
+    // Repetition with Loops
+    // 1. loop
+    // 2. while
+    // 3. for
+
+    // loop {
+    //     println!("again!");
+    // }
+
+    // returning value from loops
+    let mut counter = 0;
+
+    let result = loop {
+        counter += 1;
+
+        if counter == 50 {
+            break counter * 2;
+        }
+    };
+    println!("The result is: {}", result);
+
+    // conditional loop with while loop
+    
 }
