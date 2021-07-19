@@ -61,6 +61,16 @@ fn main() {
     };
     println!("The result is: {}", result);
 
-    // conditional loop with while loop
-    
+    // conditional loop with `while` loop
+    let mut number6 = 3;
+
+    while number6 != 0 {
+        println!("{}", number6);
+
+        number6 -= 1;
+    }
+    println!("LIFTOFF!!!");
+
+    // Looping Through a Collection with `for`
+
 }
