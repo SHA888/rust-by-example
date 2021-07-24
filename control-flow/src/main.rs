@@ -72,5 +72,13 @@ fn main() {
     println!("LIFTOFF!!!");
 
     // Looping Through a Collection with `for`
+    let a_for_loop = [10, 20, 30, 40, 50];
+    let mut for_loop_index = 0;
+
+    while for_loop_index < 5 {
+        println!("The value for loop index is: {}", a_for_loop[for_loop_index]);
+
+        for_loop_index += 1;
+    }    
 
 }
