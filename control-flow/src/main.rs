@@ -71,7 +71,7 @@ fn main() {
     }
     println!("LIFTOFF!!!");
 
-    // Looping Through a Collection with `for`
+    // Looping Through a Collection with `for` -> Error prone
     let a_for_loop = [10, 20, 30, 40, 50];
     let mut for_loop_index = 0;
 
@@ -80,5 +80,18 @@ fn main() {
 
         for_loop_index += 1;
     }    
+
+    // for - in -> more concise & safety
+    let a_for_in = [10, 20, 30, 40, 50];
+
+    for element in a_for_in.iter() {
+        println!("The velue for for-in is: {}", element);
+    }
+
+    // Range and Reverse range
+    for number7 in (1..4).rev() {
+        println!("{}!", number7);
+    }
+    print!("LIFTOFF!!!");
 
 }
