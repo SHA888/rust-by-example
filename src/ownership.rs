@@ -1,4 +1,4 @@
-fn main() {
+pub fn main() {
 
     // The Stack and the Heap -> part of memory management -> to be used at runtime
 
